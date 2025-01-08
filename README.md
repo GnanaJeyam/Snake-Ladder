@@ -14,3 +14,7 @@ The Application will print the progress each of the player and their dice roll, 
 - **Real-Time Feedback**: Displays player positions and progress during gameplay.
 
 ---
+
+## **Tech Stack**
+- *Java 23*
+- *Gradle 8.12*
