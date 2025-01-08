@@ -12,10 +12,13 @@ public enum Dice {
     FOUR(4),
     FIVE(5),
     SIX(6);
+
     private final int side;
+
     Dice(int side) {
         this.side = side;
     }
+
     private static Map<Integer, Dice> cache;
     static {
         cache = Arrays.stream(Dice.values()).collect(Collectors.toMap(Dice::getSide, Function.identity()));
